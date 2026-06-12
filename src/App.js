@@ -54,7 +54,7 @@ function App() {
     try {
 
       const res = await fetch(
-        "https://coding-mentor-api.onrender.com/chat",
+        "https://coding-mentor-llm.onrender.com/",
         {
           method: "POST",
           headers: {
