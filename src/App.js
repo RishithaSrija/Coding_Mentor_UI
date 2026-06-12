@@ -54,7 +54,7 @@ function App() {
     try {
 
       const res = await fetch(
-        "https://coding-mentor-llm.onrender.com/",
+        "https://coding-mentor-llm.onrender.com/ask",
         {
           method: "POST",
           headers: {
